@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: 0.6.1
+_src_path: https://github.com/NLeSC/python-template.git
+copyright_holder: Carlos Gavidia-Calderon
+email: carlos@gavidia.me
+full_name: Carlos Gavidia-Calderon
+github_organization: cptanalatriste
+keywords: paquete,paquetito
+license: Apachev2
+package_name: paquete
+package_short_description: Un paquete
+template_profile: minimum
+version: 0.1.0
