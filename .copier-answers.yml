@@ -1,6 +1,32 @@
 # Changes here will be overwritten by Copier
+SelectCitation:
+- AddCitationFile_flag
+- AddCFFConvert_flag
+SelectCodeQualityFeatures:
+- AddLocalTests_flag
+- SelectGitHubActions_flag
+- AddLinting_flag
+- AddPreCommit_flag
+- AddSonarCloud_flag
+- AddEditorConfig_flag
+SelectCommunityFeatures:
+- AddCodeConduct_flag
+- AddContributing_flag
+SelectDocumentationFeatures:
+- AddLocalDocumentation_flag
+- AddOnlineDocumentation_flag
+- AddDevDoc_flag
+- AddGitHubActionDocumentation_flag
+SelectGitHubActions:
+- AddGitHubActionBuild_flag
+- AddLinkCheck_flag
+SelectPublishReleaseFeatures:
+- SelectCitation_flag
+- AddChangeLog_flag
+- AddZenodo_flag
 _commit: 0.6.1
 _src_path: https://github.com/NLeSC/python-template.git
+code_of_conduct_email: carlos@gavidia.me
 copyright_holder: Carlos Gavidia-Calderon
 email: carlos@gavidia.me
 full_name: Carlos Gavidia-Calderon
@@ -9,5 +35,5 @@ keywords: paquete,paquetito
 license: Apachev2
 package_name: paquete
 package_short_description: Un paquete
-template_profile: minimum
+template_profile: ask
 version: 0.1.0
